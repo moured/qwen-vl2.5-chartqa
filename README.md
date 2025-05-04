@@ -41,6 +41,7 @@ python demo.py \
 | `test_human`     |    **80.72** |
 | `test_augmented` |    **94.96** |
 | **Overall**      |    **87.84** |
+
 (Model: Qwen 2.5-VL-7B-Instruct, FP16 on one A100 80 GB)
 
 
