@@ -1,0 +1,13 @@
+# Core
+torch>=2.1.0          # GPU build if you have CUDA; otherwise install CPU wheel
+transformers>=4.40.0  # trust_remote_code=True works from 4.39+
+accelerate>=0.26.0    # enables HF device-map / multi-GPU convenience
+
+# VQA-specific extras
+qwen-vl-utils>=0.1.4  # provides process_vision_info
+flash-attn>=2.5.5     # optional, but script opts into flash_attention_2
+
+# Utilities
+tqdm>=4.66.0
+Pillow>=10.3.0
+safetensors>=0.4.2    # faster model loads, avoids Pickle
